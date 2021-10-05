@@ -1,0 +1,213 @@
+2021-05-14 20:49:01.642 I  E2E validation to be performed
+2021-05-14 20:49:01.643 I  Feature: Demo -- checking
+2021-05-14 20:49:01.645 W No sentences to fix Demo/When I open "http://google.com"
+2021-05-14 20:49:01.647 W No sentences to fix Demo/When I put total count of "X" into "x"
+2021-05-14 20:49:01.647 I  Feature: Demo -- checked
+2021-05-14 20:49:01.651 I Demo Executing scenario Demo
+2021-05-14 20:49:01.652 I Demo 1# Executing step Given selectors
+2021-05-14 20:49:01.653 I Demo 2# Executing step Given browser "Chrome"
+2021-05-14 20:49:01.804 I Current google-chrome version is 90.0.4430
+2021-05-14 20:49:01.804 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:49:02.799 I Driver [/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver] found in cache
+2021-05-14 20:49:02.800 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:49:03.348 I Demo 2# Initiating chrome session with capabilities - {'_binary_location': '', '_arguments': ['--disable-web-security', '--lang=en,en-us', '--acceptInsecureCerts', '--use-fake-ui-for-media-stream', '--disable-infobars', '--disable-blink-features=BlockCredentialedSubresources', '--disable-notifications', '--disable-gpu', '--disable-dev-shm-usage', '--no-sandbox', '--ignore-certificate-errors', '--start-maximized', '--use-fake-device-for-media-stream', '--window-size=1920x1080'], '_extension_files': [], '_extensions': [], '_experimental_options': {'prefs': {'download.default_directory': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/tmp4azae47t', 'download.directory_upgrade': True, 'download.prompt_for_download': False, 'safebrowsing.enabled': True, 'intl.accept_languages': 'en,en-us', 'profile.content_settings.exceptions.clipboard': {'[*.],*': {'last_modified': '1576491240619', 'setting': 1}}}, 'w3c': False}, '_debugger_address': None, '_caps': {'browserName': 'chrome', 'version': '', 'platform': 'ANY'}}
+2021-05-14 20:49:03.348 I Demo 2# browser_data to initiate driver: {'class': <class 'e2e_automation.driver.selenium.ChromeDriver.ChromeDriver'>, 'kwargs': {'executable_path': '/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver', 'env': environ({'TMPDIR': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/', 'XPC_FLAGS': '0x0', 'LaunchInstanceID': '6D621846-377D-4C4F-86D3-2943EF3CEE70', 'TERM': 'xterm-256color', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.fWjMYmUfuC/Listeners', 'SECURITYSESSIONID': '186a6', 'XPC_SERVICE_NAME': '0', 'TERM_PROGRAM': 'Apple_Terminal', 'TERM_PROGRAM_VERSION': '433', 'TERM_SESSION_ID': '7E76297A-85D4-435F-91D6-3737B6CE2588', 'SHELL': '/bin/zsh', 'HOME': '/Users/user', 'LOGNAME': 'user', 'USER': 'user', 'PATH': '/Users/user/.pyenv/versions/3.7.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/mongodb-community-shell/4.2.0/bin:/User/user/Downloads:/Library/Apple/usr/bin:/Users/user/.local/bin:/Users/user/Desktop/selenium/chromedriver:/Users/user/.local/bin', 'SHLVL': '1', 'PWD': '/Users/user/Desktop/testing', 'OLDPWD': '/Users/user/Desktop', 'ZSH': '/Users/user/.oh-my-zsh', 'PAGER': 'less', 'LESS': '-R', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NVM_DIR': '/Users/user/.nvm', 'NVM_CD_FLAGS': '-q', 'NVM_RC_VERSION': '', 'LC_CTYPE': 'UTF-8', '_': '/Users/user/.pyenv/versions/3.7.7/bin/e2e-behave', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'XML_CATALOG_FILES': '/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/eulxml/schema_data/catalog.xml'}), 'options': <selenium.webdriver.chrome.options.Options object at 0x12b50a5d0>}}
+2021-05-14 20:49:06.087 I Demo 2# Current url: data:,
+2021-05-14 20:49:06.094 I Demo 2# Current window title: 
+2021-05-14 20:49:06.095 I Demo 3# Executing step When I open "http://google.com"
+2021-05-14 20:49:14.142 I Demo 3# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:49:14.145 I Demo 3# Current window title: Google
+2021-05-14 20:49:14.146 I Demo 4# Executing step And I put total count of "X" into "x"
+2021-05-14 20:49:14.158 W Demo 4# No element found for: //option[text()='Unavailable'] in [["//option[text()='Unavailable']", 1]]
+2021-05-14 20:50:04.469 I Demo 4# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:50:04.477 I Demo 4# Current window title: Google
+2021-05-14 20:50:19.441 I  E2E validation to be performed
+2021-05-14 20:50:19.441 I  Feature: Demo -- checking
+2021-05-14 20:50:19.443 W No sentences to fix Demo/When I open "http://google.com"
+2021-05-14 20:50:19.444 W No sentences to fix Demo/When I put total count of "X" into "x"
+2021-05-14 20:50:19.446 I  Feature: Demo -- checked
+2021-05-14 20:50:19.448 I Demo Executing scenario Demo
+2021-05-14 20:50:19.450 I Demo 1# Executing step Given selectors
+2021-05-14 20:50:19.451 I Demo 2# Executing step Given browser "Chrome"
+2021-05-14 20:50:19.621 I Current google-chrome version is 90.0.4430
+2021-05-14 20:50:19.622 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:50:20.344 I Driver [/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver] found in cache
+2021-05-14 20:50:20.345 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:50:21.264 I Demo 2# Initiating chrome session with capabilities - {'_binary_location': '', '_arguments': ['--lang=en,en-us', '--ignore-certificate-errors', '--acceptInsecureCerts', '--window-size=1920x1080', '--disable-infobars', '--no-sandbox', '--disable-notifications', '--disable-dev-shm-usage', '--use-fake-ui-for-media-stream', '--disable-blink-features=BlockCredentialedSubresources', '--use-fake-device-for-media-stream', '--disable-gpu', '--disable-web-security', '--start-maximized'], '_extension_files': [], '_extensions': [], '_experimental_options': {'prefs': {'download.default_directory': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/tmpslojyxuk', 'download.directory_upgrade': True, 'download.prompt_for_download': False, 'safebrowsing.enabled': True, 'intl.accept_languages': 'en,en-us', 'profile.content_settings.exceptions.clipboard': {'[*.],*': {'last_modified': '1576491240619', 'setting': 1}}}, 'w3c': False}, '_debugger_address': None, '_caps': {'browserName': 'chrome', 'version': '', 'platform': 'ANY'}}
+2021-05-14 20:50:21.264 I Demo 2# browser_data to initiate driver: {'class': <class 'e2e_automation.driver.selenium.ChromeDriver.ChromeDriver'>, 'kwargs': {'executable_path': '/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver', 'env': environ({'TMPDIR': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/', 'XPC_FLAGS': '0x0', 'LaunchInstanceID': '6D621846-377D-4C4F-86D3-2943EF3CEE70', 'TERM': 'xterm-256color', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.fWjMYmUfuC/Listeners', 'SECURITYSESSIONID': '186a6', 'XPC_SERVICE_NAME': '0', 'TERM_PROGRAM': 'Apple_Terminal', 'TERM_PROGRAM_VERSION': '433', 'TERM_SESSION_ID': '7E76297A-85D4-435F-91D6-3737B6CE2588', 'SHELL': '/bin/zsh', 'HOME': '/Users/user', 'LOGNAME': 'user', 'USER': 'user', 'PATH': '/Users/user/.pyenv/versions/3.7.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/mongodb-community-shell/4.2.0/bin:/User/user/Downloads:/Library/Apple/usr/bin:/Users/user/.local/bin:/Users/user/Desktop/selenium/chromedriver:/Users/user/.local/bin', 'SHLVL': '1', 'PWD': '/Users/user/Desktop/testing', 'OLDPWD': '/Users/user/Desktop', 'ZSH': '/Users/user/.oh-my-zsh', 'PAGER': 'less', 'LESS': '-R', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NVM_DIR': '/Users/user/.nvm', 'NVM_CD_FLAGS': '-q', 'NVM_RC_VERSION': '', 'LC_CTYPE': 'UTF-8', '_': '/Users/user/.pyenv/versions/3.7.7/bin/e2e-behave', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'XML_CATALOG_FILES': '/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/eulxml/schema_data/catalog.xml'}), 'options': <selenium.webdriver.chrome.options.Options object at 0x1256c5810>}}
+2021-05-14 20:50:23.628 I Demo 2# Current url: data:,
+2021-05-14 20:50:23.633 I Demo 2# Current window title: 
+2021-05-14 20:50:23.636 I Demo 3# Executing step When I open "http://google.com"
+2021-05-14 20:50:29.013 I Demo 3# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:50:29.019 I Demo 3# Current window title: Google
+2021-05-14 20:50:29.020 I Demo 4# Executing step And I put total count of "X" into "x"
+2021-05-14 20:50:29.033 W Demo 4# No element found for: //option[text()='Unavailable'] in [["//option[text()='Unavailable']", 1]]
+2021-05-14 20:51:19.227 I Demo 4# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:51:19.231 I Demo 4# Current window title: Google
+2021-05-14 20:51:19.232 I Demo 5# Executing step Then the value of "x" should be "yay!"
+2021-05-14 20:51:19.238 E Demo 5# File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/model.py", line 1329, in run
+    match.run(runner.context)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "../../.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/steps/variables_steps.py", line 216, in the_vartype_of_variable_comparison
+    step_invocation(context, 'Variables').the_vartype_of_variable_comparison(**kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 37, in impl
+    self.invoke_step(func, **kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 67, in invoke_step
+    raise e
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 63, in invoke_step
+    func(**wrapped_args)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/spec/impl/variables_impl.py", line 183, in the_vartype_of_variable_comparison
+    func(value, *comparison.args.values())
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/Assert.py", line 63, in should_be_value
+    if self._should_be_value(actual, expected):
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/Assert.py", line 49, in _should_be_value
+    actual_casted, expected_casted = cast_value_to_value_with_type(actual, expected)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/util/casts.py", line 14, in cast_value_to_value_with_type
+    return original_value, cast_value_to_value(second_value, original_value)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/util/casts.py", line 21, in cast_value_to_value
+    return cast_value_to_type(value, type(current_value))
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/util/casts.py", line 53, in cast_value_to_type
+    return int(float(value))
+
+could not convert string to float: 'yay!'
+2021-05-14 20:51:19.241 I Demo 5# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:51:19.244 I Demo 5# Current window title: Google
+2021-05-14 20:52:29.321 I  E2E validation to be performed
+2021-05-14 20:52:29.322 I  Feature: Demo -- checking
+2021-05-14 20:52:29.323 W No sentences to fix Demo/When I open "http://google.com"
+2021-05-14 20:52:29.325 W No sentences to fix Demo/When I put total count of "X" into "x"
+2021-05-14 20:52:29.328 I  Feature: Demo -- checked
+2021-05-14 20:52:29.332 I Demo Executing scenario Demo
+2021-05-14 20:52:29.333 I Demo 1# Executing step Given selectors
+2021-05-14 20:52:29.333 I Demo 2# Executing step Given browser "Chrome"
+2021-05-14 20:52:29.478 I Current google-chrome version is 90.0.4430
+2021-05-14 20:52:29.478 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:52:30.500 I Driver [/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver] found in cache
+2021-05-14 20:52:30.500 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:52:30.997 I Demo 2# Initiating chrome session with capabilities - {'_binary_location': '', '_arguments': ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', '--disable-gpu', '--acceptInsecureCerts', '--no-sandbox', '--ignore-certificate-errors', '--disable-dev-shm-usage', '--lang=en,en-us', '--start-maximized', '--disable-infobars', '--disable-web-security', '--window-size=1920x1080', '--disable-notifications', '--disable-blink-features=BlockCredentialedSubresources'], '_extension_files': [], '_extensions': [], '_experimental_options': {'prefs': {'download.default_directory': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/tmpmls5xyg6', 'download.directory_upgrade': True, 'download.prompt_for_download': False, 'safebrowsing.enabled': True, 'intl.accept_languages': 'en,en-us', 'profile.content_settings.exceptions.clipboard': {'[*.],*': {'last_modified': '1576491240619', 'setting': 1}}}, 'w3c': False}, '_debugger_address': None, '_caps': {'browserName': 'chrome', 'version': '', 'platform': 'ANY'}}
+2021-05-14 20:52:30.997 I Demo 2# browser_data to initiate driver: {'class': <class 'e2e_automation.driver.selenium.ChromeDriver.ChromeDriver'>, 'kwargs': {'executable_path': '/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver', 'env': environ({'TMPDIR': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/', 'XPC_FLAGS': '0x0', 'LaunchInstanceID': '6D621846-377D-4C4F-86D3-2943EF3CEE70', 'TERM': 'xterm-256color', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.fWjMYmUfuC/Listeners', 'SECURITYSESSIONID': '186a6', 'XPC_SERVICE_NAME': '0', 'TERM_PROGRAM': 'Apple_Terminal', 'TERM_PROGRAM_VERSION': '433', 'TERM_SESSION_ID': '7E76297A-85D4-435F-91D6-3737B6CE2588', 'SHELL': '/bin/zsh', 'HOME': '/Users/user', 'LOGNAME': 'user', 'USER': 'user', 'PATH': '/Users/user/.pyenv/versions/3.7.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/mongodb-community-shell/4.2.0/bin:/User/user/Downloads:/Library/Apple/usr/bin:/Users/user/.local/bin:/Users/user/Desktop/selenium/chromedriver:/Users/user/.local/bin', 'SHLVL': '1', 'PWD': '/Users/user/Desktop/testing', 'OLDPWD': '/Users/user/Desktop', 'ZSH': '/Users/user/.oh-my-zsh', 'PAGER': 'less', 'LESS': '-R', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NVM_DIR': '/Users/user/.nvm', 'NVM_CD_FLAGS': '-q', 'NVM_RC_VERSION': '', 'LC_CTYPE': 'UTF-8', '_': '/Users/user/.pyenv/versions/3.7.7/bin/e2e-behave', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'XML_CATALOG_FILES': '/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/eulxml/schema_data/catalog.xml'}), 'options': <selenium.webdriver.chrome.options.Options object at 0x129d8d790>}}
+2021-05-14 20:52:33.456 I Demo 2# Current url: data:,
+2021-05-14 20:52:33.463 I Demo 2# Current window title: 
+2021-05-14 20:52:33.466 I Demo 3# Executing step When I open "http://google.com"
+2021-05-14 20:52:39.101 I Demo 3# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:52:39.105 I Demo 3# Current window title: Google
+2021-05-14 20:52:39.107 I Demo 4# Executing step And I put total count of "X" into "x"
+2021-05-14 20:52:39.120 W Demo 4# No element found for: //option[text()='Unavailable'] in [["//option[text()='Unavailable']", 1]]
+2021-05-14 20:53:29.292 I Demo 4# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:53:29.296 I Demo 4# Current window title: Google
+2021-05-14 20:53:29.296 I Demo 5# Executing step Then the value of "x" should be equal to "yay!"
+2021-05-14 20:53:29.303 E Demo 5# File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/model.py", line 1329, in run
+    match.run(runner.context)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "../../.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/steps/variables_steps.py", line 216, in the_vartype_of_variable_comparison
+    step_invocation(context, 'Variables').the_vartype_of_variable_comparison(**kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 37, in impl
+    self.invoke_step(func, **kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 67, in invoke_step
+    raise e
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 63, in invoke_step
+    func(**wrapped_args)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/spec/impl/variables_impl.py", line 183, in the_vartype_of_variable_comparison
+    func(value, *comparison.args.values())
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/Assert.py", line 78, in should_be_equal_to_value
+    actual, expected = cast_value_to_value_with_type(actual, expected)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/util/casts.py", line 14, in cast_value_to_value_with_type
+    return original_value, cast_value_to_value(second_value, original_value)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/util/casts.py", line 21, in cast_value_to_value
+    return cast_value_to_type(value, type(current_value))
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/util/casts.py", line 53, in cast_value_to_type
+    return int(float(value))
+
+could not convert string to float: 'yay!'
+2021-05-14 20:53:29.306 I Demo 5# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:53:29.309 I Demo 5# Current window title: Google
+2021-05-14 20:59:44.845 I  E2E validation to be performed
+2021-05-14 20:59:44.846 I  Feature: Demo -- checking
+2021-05-14 20:59:44.847 W No sentences to fix Demo/When I open "http://google.com"
+2021-05-14 20:59:44.849 W No sentences to fix Demo/When I put total count of "X" into "x"
+2021-05-14 20:59:44.852 I  Feature: Demo -- checked
+2021-05-14 20:59:44.856 I Demo Executing scenario Demo
+2021-05-14 20:59:44.857 I Demo 1# Executing step Given selectors
+2021-05-14 20:59:44.857 I Demo 2# Executing step Given browser "Chrome"
+2021-05-14 20:59:45.017 I Current google-chrome version is 90.0.4430
+2021-05-14 20:59:45.018 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:59:45.746 I Driver [/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver] found in cache
+2021-05-14 20:59:45.747 I Get LATEST driver version for 90.0.4430
+2021-05-14 20:59:46.175 I Demo 2# Initiating chrome session with capabilities - {'_binary_location': '', '_arguments': ['--lang=en,en-us', '--acceptInsecureCerts', '--disable-dev-shm-usage', '--use-fake-device-for-media-stream', '--ignore-certificate-errors', '--disable-gpu', '--use-fake-ui-for-media-stream', '--disable-notifications', '--window-size=1920x1080', '--no-sandbox', '--disable-infobars', '--start-maximized', '--disable-web-security', '--disable-blink-features=BlockCredentialedSubresources'], '_extension_files': [], '_extensions': [], '_experimental_options': {'prefs': {'download.default_directory': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/tmpozitmgl1', 'download.directory_upgrade': True, 'download.prompt_for_download': False, 'safebrowsing.enabled': True, 'intl.accept_languages': 'en,en-us', 'profile.content_settings.exceptions.clipboard': {'[*.],*': {'last_modified': '1576491240619', 'setting': 1}}}, 'w3c': False}, '_debugger_address': None, '_caps': {'browserName': 'chrome', 'version': '', 'platform': 'ANY'}}
+2021-05-14 20:59:46.175 I Demo 2# browser_data to initiate driver: {'class': <class 'e2e_automation.driver.selenium.ChromeDriver.ChromeDriver'>, 'kwargs': {'executable_path': '/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver', 'env': environ({'TMPDIR': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/', 'XPC_FLAGS': '0x0', 'LaunchInstanceID': '6D621846-377D-4C4F-86D3-2943EF3CEE70', 'TERM': 'xterm-256color', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.fWjMYmUfuC/Listeners', 'SECURITYSESSIONID': '186a6', 'XPC_SERVICE_NAME': '0', 'TERM_PROGRAM': 'Apple_Terminal', 'TERM_PROGRAM_VERSION': '433', 'TERM_SESSION_ID': '7E76297A-85D4-435F-91D6-3737B6CE2588', 'SHELL': '/bin/zsh', 'HOME': '/Users/user', 'LOGNAME': 'user', 'USER': 'user', 'PATH': '/Users/user/.pyenv/versions/3.7.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/mongodb-community-shell/4.2.0/bin:/User/user/Downloads:/Library/Apple/usr/bin:/Users/user/.local/bin:/Users/user/Desktop/selenium/chromedriver:/Users/user/.local/bin', 'SHLVL': '1', 'PWD': '/Users/user/Desktop/testing', 'OLDPWD': '/Users/user/Desktop', 'ZSH': '/Users/user/.oh-my-zsh', 'PAGER': 'less', 'LESS': '-R', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NVM_DIR': '/Users/user/.nvm', 'NVM_CD_FLAGS': '-q', 'NVM_RC_VERSION': '', 'LC_CTYPE': 'UTF-8', '_': '/Users/user/.pyenv/versions/3.7.7/bin/e2e-behave', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'XML_CATALOG_FILES': '/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/eulxml/schema_data/catalog.xml'}), 'options': <selenium.webdriver.chrome.options.Options object at 0x13130f410>}}
+2021-05-14 20:59:48.490 I Demo 2# Current url: data:,
+2021-05-14 20:59:48.498 I Demo 2# Current window title: 
+2021-05-14 20:59:48.500 I Demo 3# Executing step When I open "http://google.com"
+2021-05-14 20:59:54.065 I Demo 3# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 20:59:54.069 I Demo 3# Current window title: Google
+2021-05-14 20:59:54.069 I Demo 4# Executing step And I put total count of "X" into "x"
+2021-05-14 20:59:54.081 W Demo 4# No element found for: //option[text()='Unavailable'] in [["//option[text()='Unavailable']", 1]]
+2021-05-14 21:00:44.478 I Demo 4# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 21:00:44.495 I Demo 4# Current window title: Google
+2021-05-14 21:00:44.497 I Demo 5# Executing step Then the value of "x" should be equal to 8
+2021-05-14 21:00:44.518 E Demo 5# File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/model.py", line 1329, in run
+    match.run(runner.context)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "../../.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/steps/variables_steps.py", line 216, in the_vartype_of_variable_comparison
+    step_invocation(context, 'Variables').the_vartype_of_variable_comparison(**kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 37, in impl
+    self.invoke_step(func, **kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 67, in invoke_step
+    raise e
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 63, in invoke_step
+    func(**wrapped_args)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/spec/impl/variables_impl.py", line 183, in the_vartype_of_variable_comparison
+    func(value, *comparison.args.values())
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/Assert.py", line 82, in should_be_equal_to_value
+    raise AssertionError(f'{actual} should be equal to {expected}')
+
+0 should be equal to 8
+2021-05-14 21:00:44.525 I Demo 5# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 21:00:44.529 I Demo 5# Current window title: Google
+2021-05-14 22:20:24.534 I  E2E validation to be performed
+2021-05-14 22:20:24.536 I  Feature: Demo -- checking
+2021-05-14 22:20:24.537 W No sentences to fix Demo/When I open "http://google.com"
+2021-05-14 22:20:24.538 W No sentences to fix Demo/When I put total count of "X" into "x"
+2021-05-14 22:20:24.542 I  Feature: Demo -- checked
+2021-05-14 22:20:24.546 I Demo Executing scenario Demo
+2021-05-14 22:20:24.547 I Demo 1# Executing step Given selectors
+2021-05-14 22:20:24.547 I Demo 2# Executing step Given browser "Chrome"
+2021-05-14 22:20:24.604 I Current google-chrome version is 90.0.4430
+2021-05-14 22:20:24.604 I Get LATEST driver version for 90.0.4430
+2021-05-14 22:20:25.696 I Driver [/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver] found in cache
+2021-05-14 22:20:25.697 I Get LATEST driver version for 90.0.4430
+2021-05-14 22:20:26.300 I Demo 2# Initiating chrome session with capabilities - {'_binary_location': '', '_arguments': ['--use-fake-device-for-media-stream', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--ignore-certificate-errors', '--disable-blink-features=BlockCredentialedSubresources', '--start-maximized', '--disable-notifications', '--use-fake-ui-for-media-stream', '--lang=en,en-us', '--window-size=1920x1080', '--disable-infobars', '--acceptInsecureCerts', '--disable-web-security'], '_extension_files': [], '_extensions': [], '_experimental_options': {'prefs': {'download.default_directory': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/tmp7vaofvuu', 'download.directory_upgrade': True, 'download.prompt_for_download': False, 'safebrowsing.enabled': True, 'intl.accept_languages': 'en,en-us', 'profile.content_settings.exceptions.clipboard': {'[*.],*': {'last_modified': '1576491240619', 'setting': 1}}}, 'w3c': False}, '_debugger_address': None, '_caps': {'browserName': 'chrome', 'version': '', 'platform': 'ANY'}}
+2021-05-14 22:20:26.300 I Demo 2# browser_data to initiate driver: {'class': <class 'e2e_automation.driver.selenium.ChromeDriver.ChromeDriver'>, 'kwargs': {'executable_path': '/Users/user/.wdm/drivers/chromedriver/mac64/90.0.4430.24/chromedriver', 'env': environ({'TMPDIR': '/var/folders/d1/qyms7v9s709gclyvsdwss5cw0000gn/T/', 'XPC_FLAGS': '0x0', 'LaunchInstanceID': '6D621846-377D-4C4F-86D3-2943EF3CEE70', 'TERM': 'xterm-256color', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.fWjMYmUfuC/Listeners', 'SECURITYSESSIONID': '186a6', 'XPC_SERVICE_NAME': '0', 'TERM_PROGRAM': 'Apple_Terminal', 'TERM_PROGRAM_VERSION': '433', 'TERM_SESSION_ID': '7E76297A-85D4-435F-91D6-3737B6CE2588', 'SHELL': '/bin/zsh', 'HOME': '/Users/user', 'LOGNAME': 'user', 'USER': 'user', 'PATH': '/Users/user/.pyenv/versions/3.7.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/mongodb-community-shell/4.2.0/bin:/User/user/Downloads:/Library/Apple/usr/bin:/Users/user/.local/bin:/Users/user/Desktop/selenium/chromedriver:/Users/user/.local/bin', 'SHLVL': '1', 'PWD': '/Users/user/Desktop/testing', 'OLDPWD': '/Users/user/Desktop', 'ZSH': '/Users/user/.oh-my-zsh', 'PAGER': 'less', 'LESS': '-R', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NVM_DIR': '/Users/user/.nvm', 'NVM_CD_FLAGS': '-q', 'NVM_RC_VERSION': '', 'LC_CTYPE': 'UTF-8', '_': '/Users/user/.pyenv/versions/3.7.7/bin/e2e-behave', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'XML_CATALOG_FILES': '/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/eulxml/schema_data/catalog.xml'}), 'options': <selenium.webdriver.chrome.options.Options object at 0x125f8d590>}}
+2021-05-14 22:20:28.651 I Demo 2# Current url: data:,
+2021-05-14 22:20:28.663 I Demo 2# Current window title: 
+2021-05-14 22:20:28.664 I Demo 3# Executing step When I open "http://google.com"
+2021-05-14 22:20:34.162 I Demo 3# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 22:20:34.166 I Demo 3# Current window title: Google
+2021-05-14 22:20:34.167 I Demo 4# Executing step And I put total count of "X" into "x"
+2021-05-14 22:20:34.182 W Demo 4# No element found for: //option[text()='Unavailable'] in [["//option[text()='Unavailable']", 1]]
+2021-05-14 22:21:24.380 I Demo 4# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 22:21:24.383 I Demo 4# Current window title: Google
+2021-05-14 22:21:24.384 I Demo 5# Executing step Then the value of "x" should be equal to 8
+2021-05-14 22:21:24.388 E Demo 5# File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/model.py", line 1329, in run
+    match.run(runner.context)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/behave/matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "../../.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/steps/variables_steps.py", line 216, in the_vartype_of_variable_comparison
+    step_invocation(context, 'Variables').the_vartype_of_variable_comparison(**kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 37, in impl
+    self.invoke_step(func, **kwargs)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 67, in invoke_step
+    raise e
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/runtime/__init__.py", line 63, in invoke_step
+    func(**wrapped_args)
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/spec/impl/variables_impl.py", line 183, in the_vartype_of_variable_comparison
+    func(value, *comparison.args.values())
+  File "/Users/user/.pyenv/versions/3.7.7/lib/python3.7/site-packages/e2e_automation/Assert.py", line 82, in should_be_equal_to_value
+    raise AssertionError(f'{actual} should be equal to {expected}')
+
+0 should be equal to 8
+2021-05-14 22:21:24.391 I Demo 5# Current url: https://www.google.com/?gws_rd=ssl
+2021-05-14 22:21:24.394 I Demo 5# Current window title: Google
